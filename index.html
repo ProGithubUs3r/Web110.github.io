@@ -2,41 +2,94 @@
 <html lang="en">
 
 <head>
+<link rel="stylesheet" href="C:\Users\CumMa\Downloads\CSS Layout 10 - Free-CSS.com\layout10\styles.css">
 <style>
-body {background-color:black;}
-h1{color: yellow; text-align: center;}
-h3{color: white; text-align: center;}
-p{font-family: times new roman; font-size: 18px; text-align:left; color: white;}
-ul{color: white;}
-mark{background: yellow;}
+/* heading styles */
+h1 {
+  color: black;
+  text-align: center;
+}
+h3 {
+  color: black;
+  text-align: center;
+}
+/* body and paragraph styles */
+body {
+  background-color: papayawhip;
+}
+p {
+  font-family: times new roman;
+  font-size: 18px;
+  text-align: left;
+  color: white;
+}
+/* list and highlighting styles */
+ul {
+  color: black;
+}
+mark {
+  background: #FFD700;
+}
+/* classes for the boxes */
+.headerDiv {
+  border: 8px outset black;
+  padding: 2px;
+  margin: 18px;
+  background-color: papayawhip;
+  text-align: center;
+}
+.listDiv {
+  border: 6px outset black;
+  background-color: papayawhip;
+  margin: 22px;
+  text-align: center;
+}
+.paragraphDiv {
+  border: 6px outset gray;
+  margin: 16px;
+  background-color: papayawhip;
+  text-align: left;
+}
+
+
 </style>
 </head>
 
 <body>
+<!--header n stuff-->
+<div class = "headerDiv">
 <h1> About me </h1>
-<p>My name is <mark>Abdul</mark>, but I also go by <mark>Doolie</mark>. I have no preference for either. <br>
+</div>
+
+<p>
+<div class = "paragraphDiv">My name is <mark>Abdul</mark>, but I also go by <mark>Doolie</mark>. I have no preference for either. <br>
 This page is for my Web Development class.<br>
 My hobbies are playing games and sleeping. <br>
 Here is an image of a cute monkey I found.<br>
-
 <img src = "https://github.com/ProGithubUs3r/Web110.github.io/blob/main/FbBH3ZJWIAAIz7A.jpg?raw=true" width = "200"
   alt = "This an image of a monkey holding a snowball" style="display: block; margin: 0 auto;" ></img>
+ </div> 
+  
+<div class = "listDiv">
 <h3 style = "text-align: left">Here's a list of random basketball players</h3>
-<ul>
-<li> Hedo Turkoglu(last played on the <mark style = "background: blue">Los Angeles Clippers</mark>) </li>
-<li> Dennis Smith Jr(last played on the <mark style = "background: grey">Brooklyn Nets</mark>)</li>
-<li> Alex Caruso(currently on the <mark style = "background: orange">Oklahoma City Thunder</mark>)</li> <!--second favorite player-->
-<li> Malik Monk (currently on the <mark style = "background: purple">Sacramento Kings</mark>)</li> <!--my favorite player on this list-->
-<li> Dario Saric (currently on the <mark style = "background: gold">Denver Nuggets</mark>)</li>
+<ul style = "text-align: center">
+<li> Hedo Turkoglu(last played on the <span style = "color: #0000ff">Los Angeles Clippers</span>) </li>
+<li> Dennis Smith Jr(last played on the <span style = "color: grey">Brooklyn Nets</span>)</li>
+<li> Alex Caruso(currently on the <span style = "color: orange">Oklahoma City Thunder</span>)</li> 
+<!--Second favorite player on this list-->
+<li> Malik Monk (currently on the <span style = "color: purple">Sacramento Kings</span>)</li>
+<!--my favorite player on this list-->
+<li> Dario Saric (currently on the <span style = "color: gold">Denver Nuggets</span>)</li>
 </ul>
+</div>
 <!--You're not supposed to see this-->
 <!--Had to look this one up-->
 <details>
-  <summary style = "color: white">Show More</summary>
-  <p style = "color: white">
-	This is a website for my web develoopment course.<br>
-    Did you like the monkey image?<br>
-	An update was made on <time datetime = "2024-3-9"> September 17, 2024</time>
+  <summary style = "color: black" "background-color: PAPAYAWHIP">Show More</summary>
+  <p style = "color: black">
+	This is a website for my web development course.<br>
+    Song of the day - Times of trouble by Temple of the Dog.<br>
+	An update was made on <time datetime = "2024-23-9"> September 23, 2024</time>
   </p>
 </details>
 </p>
