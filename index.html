@@ -2,162 +2,47 @@
 <html lang="en">
 
 <head>
-<title>
-Web110 Website
-</title>
-<!--<link rel="stylesheet" href="C:\Users\CumMa\Downloads\CSS Layout 10 - Free-CSS.com\layout10\styles.css">-->
-<style>
-/* heading styles */
-h1 {
-  color: black;
-  text-align: center;
-}
-h3 {
-  color: black;
-  text-align: center;
-}
-/* body and paragraph styles */
-body {
-  background-color: papayawhip;
-}
-p {
-  font-family: times new roman;
-  font-size: 18px;
-  text-align: left;
-  color: black;
-}
-/* list and highlighting styles */
-ul {
-  color: black;
-}
-mark {
-  background: #FFD700;
-}
-/* classes for the boxes */
-.headerDiv {
-  border: 8px outset black;
-  padding: 2px;
-  margin: 18px;
-  background-color: papayawhip;
-  text-align: center;
-}
-.listDiv {
-  border: 6px outset black;
-  background-color: papayawhip;
-  margin: 22px;
-  text-align: center;
-}
-.paragraphDiv {
-  border: 6px outset gray;
-  margin: 16px;
-  background-color: papayawhip;
-  text-align: left;
-}
-table, th, td {
-  border: 2px solid black;
-  border-collapse: collapse;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  vertical-align: middle;
-}
-.dropbtn {
-  background-color: black;
-  color: white;
-  padding:10px;
-  font-size: 12px;
-  border: none;
-  margin: 10px;
-}
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: papayawhip;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-.dropdown:hover .dropdown-content  {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
+<link rel="stylesheet" href="luhsheet.css">
 
-
-</style>
 </head>
+
 <body>
-<p>
-<!--header n stuff-->
 <div class="dropdown">
-  <button class="dropbtn">Menu</button>
+  <button class="dropbtn">Dropdown</button>
   <div class="dropdown-content">
-    <a href="index2.html" target="_blank">Other website</a>
+    <a href="index2.html" target="_blank">Page 2</a><br>
+	<a href="index 3.html" target="_blank">Page 3</a>
+
 	</div>
 </div>
 <div class = "headerDiv">
 <h1> About me </h1>
-
 </div>
+
+<p>
+
 <div class = "paragraphDiv">My name is <mark>Abdul</mark>, but I also go by <mark>Doolie</mark>. I have no preference for either. <br>
 This page is for my Web Development class.<br>
 My hobbies are playing games and sleeping. <br>
 Here is an image of a cute monkey I found.<br>
-<img src = "https://github.com/ProGithubUs3r/Web110.github.io/blob/main/FbBH3ZJWIAAIz7A.jpg?raw=true" width = "200"
-  alt = "This an image of a monkey holding a snowball" style="display: block; margin: 0 auto;" >
+<img src = "https://github.com/ProGithubUs3r/Web110.github.io/blob/main/FbBH3ZJWIAAIz7A.jpg?raw=true" width = "200px"
+  alt = "This an image of a monkey holding a snowball" style="display: block; margin: 0 auto;" ></img>
+ </p>
  </div> 
 
-<p style = "text-align: left"><strong>Here's a chart of random basketball players:</strong>
-<table style = "text-align: left; width: 50%">
-<tr>
-<th> Player name </th>
-<th> Player team </th>
-<th style = "width: 20%"> Status </th>
-</tr>
-<tr>
-<td>Hedo Turkoglu</td>
-<td>Los Angeles Clippers</td>
-<td>Retired</td>
-</tr>
-<tr>
-<td>Dennis Smith Jr</td>
-<td>Brooklyn Nets <img src = "https://github.com/ProGithubUs3r/Web110.github.io/blob/main/Brooklyn-Nets-Logo.png?raw=true" alt = "Brooklyn nets logo" width= "50"> </td>
-<td>Free agent</td>
-</tr>
-<tr>
-<td>Alex Caruso</td>
-<td>Oklahoma City Thunder</td>
-<td>Active</td>
-</tr>
-<!--Second favorite player on this chart-->
-<tr>
-<td>Malik Monk</td>
-<td>Chicago Bulls</td>
-<td>Active</td>
-</tr>
-<!--my favorite player on this list-->
-<tr>
-<td>Dario Saric</td>
-<td>Denver Nuggets</td>
-<td>Active</td>
-</tr>
-</table>
 
 <p style = "text-align: left"><strong>Since I need a video, here's a cute cat video:</strong></p>
-<video src = "https://github.com/ProGithubUs3r/Web110.github.io/blob/7ea6670633af71e5f6fc11745ebe54762adf73eb/219385612_214711993875250_4172854372401306955_n.mp4?raw=true" controls style="display: block; margin: 0 auto;" width = "200"></video>
+<video src = "C:\Users\CumMa\Pictures\Camera Roll\219385612_214711993875250_4172854372401306955_n.mp4" controls style="display: block; margin: 0 auto;" width = "200px"></video>
 
 <!--Had to look this one up-->
 <details>
   <summary style = "color: black; background-color: PAPAYAWHIP">Show More</summary>
   <p style = "color: black; font-size: 12px">
 	This is a website for my web development course.<br>
-        Song of the day - Superfresh by Jamiroquai.<br>
-	An update was made on October 7, 2024.
+    Song of the day - Times of trouble by Temple of the Dog.<br>
+	An update was made on <time datetime = "2024-7-10"> October 7, 2024</time>
+  </p>
 </details>
+</p>
 </body>
 </html>
