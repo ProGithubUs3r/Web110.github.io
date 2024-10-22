@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<style>
+/* heading styles */
+h1 {
+  color: black;
+  text-align: center;
+}
+h3 {
+  color: black;
+  text-align: center;
+}
+/* body and paragraph styles */
+body {
+  background-color: papayawhip;
+}
+p {
+  font-family: times new roman;
+  font-size: 18px;
+  text-align: left;
+  color: black;
+}
+/* list and highlighting styles */
+ul {
+  color: black;
+}
+mark {
+  background: #FFD700;
+}
+/* classes for the boxes */
+.headerDiv {
+  border: 8px outset black;
+  padding: 2px;
+  margin: 18px;
+  background-color: papayawhip;
+  text-align: center;
+}
+.listDiv {
+  border: 6px outset black;
+  background-color: papayawhip;
+  margin: 22px;
+  text-align: center;
+}
+.paragraphDiv {
+  border: 6px outset gray;
+  margin: 16px;
+  background-color: papayawhip;
+  text-align: left;
+}
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  text align: center;
+  vertical-align: middle;
+}
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding:10px;
+  font-size: 12px;
+  border: none;
+  margin: 10px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content  {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+</style>
+</head>
+</html>
