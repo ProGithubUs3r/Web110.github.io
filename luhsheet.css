@@ -84,6 +84,92 @@ table, th, td {
   display: block;
 }
 
+.media-player{ 
+    width: 300px;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #fff;
+}
+
+.screen {
+    width: 100%;
+    height: 150px;
+    background-color: #111;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.control {
+    background-color: #444;
+    border: none;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect using pseudo-class */
+.control:hover {
+    background-color: #555;
+}
+
+/* Active pseudo-class for button press effect */
+.control:active {
+    transform: scale(0.9);
+    background-color: #666;
+}
+
+/* Pseudo-class for progress bar styling */
+.progress-bar {
+    position: relative;
+    height: 5px;
+    background-color: #555;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    width: 40%;
+    height: 100%;
+    background-color: #1db954;
+    transition: width 0.5s ease;
+}
+
+.progress-bar:hover .progress {
+    background-color: #1ed760;
+}
+
+/* Play button specific styling */
+.play:hover {
+    color: #1db954;
+}
+
+/* Pause button specific styling */
+.pause:hover {
+    color: #ff5722;
+}
+
+/* Forward button specific styling */
+.forward:hover {
+    color: #4caf50;
+}
+
+/* Rewind button specific styling */
+.rewind:hover {
+    color: #f44336;
+}
 
 </style>
 </head>
