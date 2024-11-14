@@ -16,6 +16,19 @@ h3 {
 body {
   background-color: papayawhip;
 }
+.parallax {
+    height: 300px;
+    background-image: url('OIP.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content {
+    height: 1000px;
+    padding: 20px;
+    background-color: white;
+}
 p {
   font-family: times new roman;
   font-size: 18px;
@@ -191,19 +204,6 @@ table, th, td {
     0% { transform: translateY(0); }
     50% { transform: translateY(-20px); }
     100% { transform: translateY(0); }
-}
-.parallax {
-    height: 300px;
-    background-image: url('OIP.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.content {
-    height: 1000px;
-    padding: 20px;
-    background-color: white;
 }
 </style>
 </head>
