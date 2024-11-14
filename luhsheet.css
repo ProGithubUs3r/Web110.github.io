@@ -45,7 +45,8 @@ mark {
 }
 .paragraphDiv {
   border: 6px outset gray;
-  margin: 8px;
+  width: 50%;
+  margin: 16px;
   background-color: papayawhip;
   text-align: left;
 }
