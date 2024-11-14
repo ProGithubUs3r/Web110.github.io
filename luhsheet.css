@@ -47,12 +47,10 @@ mark {
   border: 8px outset black;
   padding: 2px;
   margin: 18px;
-  background-color: papayawhip;
   text-align: center;
 }
 .listDiv {
   border: 6px outset black;
-  background-color: papayawhip;
   margin: 22px;
   text-align: center;
 }
@@ -60,7 +58,6 @@ mark {
   border: 6px outset gray;
   width: 50%;
   margin: 16px;
-  background-color: papayawhip;
   text-align: left;
 }
 table, th, td {
@@ -192,18 +189,6 @@ table, th, td {
 .image:hover {
     background-color: coral;
     transform: scale(1.2);
-}
-.animated-box {
-    width: 100px;
-    height: 100px;
-    background-color: lightgreen;
-    animation: bounce 2s infinite;
-}
-
-@keyframes bounce {
-    0% { transform: translateY(0); }
-    50% { transform: translateY(-20px); }
-    100% { transform: translateY(0); }
 }
 </style>
 </head>
