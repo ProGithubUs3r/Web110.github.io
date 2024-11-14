@@ -192,6 +192,19 @@ table, th, td {
     50% { transform: translateY(-20px); }
     100% { transform: translateY(0); }
 }
+.parallax {
+    height: 300px;
+    background-image: url('your-image.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content {
+    height: 1000px;
+    padding: 20px;
+    background-color: white;
+}
 </style>
 </head>
 </html>
