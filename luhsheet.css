@@ -15,19 +15,7 @@ h3 {
 /* body and paragraph styles */
 body {
   background-color: lightgray;
-}
-.parallax {
-    height: 300px;
   background-image: url("https://raw.githubusercontent.com/ProGithubUs3r/Web110.github.io/main/OIP.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.content {
-    height: 1000px;
-    padding: 20px;
-    background-color: white;
 }
 p {
   font-family: times new roman;
