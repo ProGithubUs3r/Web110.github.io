@@ -177,6 +177,18 @@ table, th, td {
     background-color: coral;
     transform: scale(1.2);
 }
+.animated-box {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
 </style>
 </head>
 </html>
