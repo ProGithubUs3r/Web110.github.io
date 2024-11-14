@@ -173,6 +173,7 @@ table, th, td {
 
 .image {
     width: 200px;
+  transition: transform 0.3s ease;
 }
 .image:hover {
     background-color: coral;
