@@ -171,6 +171,17 @@ table, th, td {
     color: #f44336;
 }
 
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    transition: background-color 0.5s, transform 0.5s;
+}
+.box:hover {
+    background-color: coral;
+    transform: scale(1.2);
+}
+
 </style>
 </head>
 </html>
